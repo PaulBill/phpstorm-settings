@@ -1,0 +1,10 @@
+<application>
+  <component name="RemoteServers">
+    <remote-server name="Docker" type="docker">
+      <configuration>
+        <option name="apiUrl" value="http://0.0.0.0:80" />
+        <option name="certificatesPath" value="$USER_HOME$/sites/hp-reseller-rewards/docker/nginx-proxy/certs" />
+      </configuration>
+    </remote-server>
+  </component>
+</application>
