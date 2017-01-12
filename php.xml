@@ -1335,10 +1335,4 @@
       </interpreter>
     </phpInfoCache>
   </component>
-  <component name="PhpUnit">
-    <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="d03de51c-1bec-44cb-b384-8f5e4dd34eac" load_method="CUSTOM_LOADER" configuration_file_path="/vagrant/phpunit.xml" custom_loader_path="/vagrant/src/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
-      <phpunit_by_interpreter interpreter_id="0cdd571b-3250-449c-a426-885ed3f407c5" bootstrap_file_path="/opt/hub.opiahost.co.uk/current/tests/bootstrap.php" configuration_file_path="/opt/hub.opiahost.co.uk/current/phpunit.xml" custom_loader_path="/vagrant/src/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
-    </phpunit_settings>
-  </component>
 </application>
