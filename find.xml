@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory '[opia-hub] - .../src/Opia/Reward/Processing/WesternUnionApi'" />
     <option name="defaultScopeName" value="Directory '[opia-hub] - .../src/Opia/Reward/Processing/WesternUnionApi'" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory '[opia-hub] - .../src/Opia/Reward/Processing/WesternUnionApi'" />
   </component>
 </application>
