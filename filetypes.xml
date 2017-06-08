@@ -2,7 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="DockerFile" type="Dockerfile" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="pfx" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="bck" type="PLAIN_TEXT" />
