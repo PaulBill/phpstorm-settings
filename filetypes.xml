@@ -4,6 +4,7 @@
       <mapping pattern="DockerFile" type="Dockerfile" />
       <mapping pattern="documentsCheck.php" type="PLAIN_TEXT" />
       <mapping pattern="TestPrizePot" type="PLAIN_TEXT" />
+      <mapping pattern="PrizeNotFoundException" type="PLAIN_TEXT" />
       <mapping ext="pfx" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
       <mapping ext="bck" type="PLAIN_TEXT" />
