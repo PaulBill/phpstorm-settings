@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="DockerFile" type="Dockerfile" />
+      <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="documentsCheck.php" type="PLAIN_TEXT" />
       <mapping pattern="TestPrizePot" type="PLAIN_TEXT" />
       <mapping pattern="PrizeNotFoundException" type="PLAIN_TEXT" />
