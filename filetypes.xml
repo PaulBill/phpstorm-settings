@@ -6,10 +6,11 @@
       <mapping pattern="documentsCheck.php" type="PLAIN_TEXT" />
       <mapping pattern="TestPrizePot" type="PLAIN_TEXT" />
       <mapping pattern="PrizeNotFoundException" type="PLAIN_TEXT" />
-      <mapping ext="pfx" type="PLAIN_TEXT" />
-      <mapping ext="pem" type="PLAIN_TEXT" />
-      <mapping ext="bck" type="PLAIN_TEXT" />
+      <mapping pattern="innerKernel" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="pfx" type="PLAIN_TEXT" />
+      <mapping ext="bck" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
