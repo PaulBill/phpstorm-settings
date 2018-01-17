@@ -1,0 +1,55 @@
+<templateSet group="Phinx">
+  <template name="pacid" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('id')&#10;        -&gt;setType('integer')&#10;        -&gt;setNull(false)&#10;        -&gt;setLimit(11)&#10;        -&gt;setSigned(false)&#10;        -&gt;setIdentity(true)&#10;)&#10;            " description="Add id column" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pacint" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('$name$')&#10;        -&gt;setType('integer')&#10;        -&gt;setNull($isNull$)&#10;        -&gt;setLimit($limit$)&#10;        -&gt;setSigned($isSigned$)&#10;)&#10;" description="Add integer column" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="isNull" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <variable name="limit" expression="" defaultValue="&quot;11&quot;" alwaysStopAt="true" />
+    <variable name="isSigned" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pacstr" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('$name$')&#10;        -&gt;setType('string')&#10;        -&gt;setNull($isNull$)&#10;        -&gt;setLimit($limit$)&#10;)&#10;" description="Add string column" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="isNull" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <variable name="limit" expression="" defaultValue="256" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pactxt" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('$name$')&#10;        -&gt;setType('text')&#10;        -&gt;setNull($isNull$)&#10;)&#10;" description="Add text column" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="isNull" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="paccta" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('created_at')&#10;        -&gt;setType('datetime')&#10;        -&gt;setNull(false)&#10;)&#10;" description="Add created at column" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pacmda" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('modified_at')&#10;        -&gt;setType('datetime')&#10;        -&gt;setNull(false)&#10;)&#10;" description="Add modified at column" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pacdate" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('$name$')&#10;        -&gt;setType('date')&#10;        -&gt;setNull($isNull$)&#10;)&#10;" description="Add date column" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="isNull" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pacdatetime" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('$name$')&#10;        -&gt;setType('datetime')&#10;        -&gt;setNull($isNull$)&#10;)&#10;" description="Add datetime column" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="isNull" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
