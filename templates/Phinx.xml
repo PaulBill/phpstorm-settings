@@ -52,4 +52,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="pacbol" value="-&gt;addColumn(&#10;    (new Column())&#10;        -&gt;setName('$name$')&#10;        -&gt;setType('boolean')&#10;        -&gt;setNull(false)&#10;)&#10;" description="Add boolean column" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
